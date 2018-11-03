@@ -1,0 +1,84 @@
+/* ===============================
+    Custom CSS
+    By: Levi Villarreal
+    For MoodyHacks
+    Completed 11/3/2018
+=============================== */
+
+
+
+/* ===============================
+    General
+   =============================== */
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+body {
+    padding: 20px 50px 20px 50px;
+    white-space: nowrap;
+    width: 400px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.modifier-title {
+    display: inline-block;
+    width: 33% !important;
+
+}
+
+.modifier-title h3 {
+    font-size: 15px !important;
+}
+
+.modifier-input {
+    clear: both;
+    display: inline-block;
+}
+
+.textbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 300px;
+    white-space: pre-line;
+    background: #eee;
+    padding: 5px;
+}
+
+textarea {
+    border: 1px dashed #000;
+    width: 100%
+}
+
+button {
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 15px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  display: block;
+  background: #fff;
+  color: #3AA1F2 !important;
+  border: 2px solid #3AA1F2;
+  cursor: pointer;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+button:hover {
+  color: #fff;
+  background: #3AA1F2;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}

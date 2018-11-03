@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "ShareIt",
+    "version": "0.1.0",
+    "description": "Share quotes from news articles",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "storage",
+        "tabs", "<all_urls>"
+    ]
+}
