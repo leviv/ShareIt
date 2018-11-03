@@ -19,7 +19,7 @@ function constructTweet(tweetUrl, tweetSelection, tweetAuthor){
   finaltweet += tweetUrl;
 
 
-  if (tweetAuthor.length != 0){
+  if (tweetAuthor != null){
     finaltweet += ' by '
     finaltweet += tweetAuthor;
   }
