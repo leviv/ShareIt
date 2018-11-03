@@ -8,6 +8,7 @@ if (author != null)
 var tweet = constructTweet(url, selection, author);
 
 console.log(tweet);
+chrome.runtime.sendMessage(tweet);
 
 // Function to construct the final tweet
 function constructTweet(tweetUrl, tweetSelection, tweetAuthor){
