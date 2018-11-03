@@ -23,6 +23,7 @@ if (author != null){
 }
 
 var tweet = constructTweet(url, selection, author);
+tweet = tweet.replace(/\|/g, '-');
 
 console.log(tweet);
 chrome.runtime.sendMessage(tweet);
