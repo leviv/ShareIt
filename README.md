@@ -1,4 +1,4 @@
-# HackSmackers2017
+# ShareIt
 Project for MoodyHacks 2018. The chrome extenstion allows you to share any text highlighted on a website. Meant to allow users to share quotes from news articles more easily.
 
 ## Getting started
